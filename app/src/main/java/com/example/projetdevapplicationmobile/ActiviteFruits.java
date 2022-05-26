@@ -9,7 +9,9 @@ import android.view.View;
 import com.google.android.material.button.MaterialButton;
 
 public class ActiviteFruits extends AppCompatActivity {
-
+    /* Clasa ActiviteFruits ce corespunde cu layout-ul activity_activite_fruits.xml */
+    /* Practic aceasta este pagina care ne va arata produsele din lista de fructe */
+    /* !!! Produsele au fost puse doar cu ImageView si TextView, nu vin dintr-o baza de date */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

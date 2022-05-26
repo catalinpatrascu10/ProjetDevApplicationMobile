@@ -9,7 +9,9 @@ import android.view.View;
 import com.google.android.material.button.MaterialButton;
 
 public class ActiviteLegumes extends AppCompatActivity {
-
+    /* Clasa ActiviteLegumes ce corespunde cu layout-ul activity_activite_legumes.xml */
+    /* Practic aceasta este pagina care ne va arata produsele din lista de legume */
+    /* !!! Produsele au fost puse doar cu ImageView si TextView, nu vin dintr-o baza de date */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
